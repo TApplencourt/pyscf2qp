@@ -3,7 +3,7 @@
 ezfio=$1
 # Create the integral
 echo 'Create Integral'
-./pyscf_fcidump_pbc.py
+./pyscf_fcidump.py
 
 echo 'Create EZFIO'
 read nel nmo natom <<< $(cat param) 
